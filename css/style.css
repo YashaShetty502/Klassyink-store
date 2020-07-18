@@ -1,0 +1,909 @@
+/******************* icons navbar *******************/
+.iconnav{
+    background-color: #ffe500;
+    height: 52px;
+    margin: -8px -8px;
+}
+
+.fa {
+    width: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 25px;
+    text-decoration: none;
+    margin: 8px 5px; 
+    border-radius: 50%;
+} 
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  margin-left: 80px;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #000000;
+}
+
+.career{
+  margin-left: 350px;
+}
+
+.vl{
+  border-left: 2px solid #ffffff;
+  margin: 0px 10px;
+}
+
+.cart{
+  background-color: #ffffff;
+  padding: 5px 45px;
+}
+
+.fa-angle-down{
+  margin-left:-2px;
+  margin-right:-2px;
+}
+
+.cart_icon{
+  margin-right:-2px;
+}
+/******************** icons navbar ********************/
+
+hr{
+  margin-left:-8px;
+  margin-right: -8px;
+}
+
+
+/************************ navbar **********************/
+
+.navbar{
+  height: 100px;
+  margin-top: -16px;
+  margin-bottom: 15px;
+}
+
+.menu{
+  margin-top: -65px;
+  margin-left: 120px;
+}
+
+.logo{
+  margin-left: 40px;
+  margin-top: 22px;
+}
+
+.navbar a{ 
+  padding: 55px 11px;
+  font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+  margin-bottom: 70px;
+
+}
+
+.menu-text{
+  font-size: 22px;
+  height: 60px;
+}
+
+.navbar a:hover{
+  border-top: 3px solid #007bb5;
+  color: #007bb5; 
+}
+
+.products{
+  position: relative;
+  display: inline-block;
+}
+
+.products_sub_menu{
+  display: none;
+  position: absolute;
+  background-color: #ffe500;
+  width: 210px;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.06);
+  z-index: 1;
+  margin-top: 30px;
+}
+
+.products_sub_menu a {
+  font-size: 20px;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 20px 6px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+.products_sub_menu a:hover {
+  background-color: #ddd;
+  margin-top: 40px;
+}
+
+.products:hover .products_sub_menu{
+  display: block;
+}
+
+.products_sub_menu .graphic_menu:hover,.products_sub_menu .plain_menu:hover,.products_sub_menu .mobile_menu:hover,.products_sub_menu .custom_menu:hover{
+  margin-top: -2px;    
+}
+
+.categories{
+  position: relative;
+  display: inline-block;
+}
+
+.categories_sub_menu{
+  display: none;
+  position: absolute;
+  background-color: #ffe500;
+  width: 210px;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.06);
+  z-index: 1;
+  margin-top: 30px;
+}
+
+.categories_sub_menu a{
+  font-size: 20px;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 20px 6px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+.categories_sub_menu a:hover{
+  background-color: #ddd;
+  margin-top: 40px;
+}
+
+.categories:hover .categories_sub_menu{
+  display: block;
+}
+
+.categories_sub_menu .shirt_menu:hover,.categories_sub_menu .cover_menu:hover{
+  margin-top: -2px;    
+}
+
+.account{
+  position: relative;
+  display: inline-block;
+}
+
+.acc_form{
+  height: 200px;
+  /* background: #ffe500; */
+  display: none;
+  position: absolute;
+  background-color: #ffe500;
+  width: 210px;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.06);
+  z-index: 1;
+  margin-top: 40px;
+}
+
+.nav_form{
+  height: 200px;
+  /* background: #ffe500; */
+  display: none;
+  position: absolute;
+  background-color: #ddd;
+  width: 210px;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.06);
+  z-index: 1;
+}
+
+.account:hover .acc_form,.account:hover .nav_form{
+  display: block;
+}
+
+.user{
+  width: 150px;
+  margin-left: 20px;
+  height: 10px;
+  margin-top: 20px;
+}
+
+.pass{
+  width: 150px;
+  margin-left: 20px;
+  height: 10px;
+  margin-top: 10px;
+}
+
+.login_btn{
+  margin-top: 20px;
+  margin-left: 30px;
+  background: #007bb5;
+  width: 80px;
+  height: 30px;
+  border-radius: 40px;
+}
+
+.register_btn:hover{
+  padding-top: 20px !important;
+  text-decoration: none !important;
+}
+/************************** navbar ****************************/
+
+
+
+
+/************************** slideshow **************************/
+.slideshow-container{
+  height: 450px;
+  width: 1200px;
+  margin-left: 74px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/******************* slideshow ***************************/
+
+
+
+/****************** image links *************************/
+.home_img{
+  height: 100%;
+  width: 100%;
+}
+
+.graphic{
+  width: 362px;
+  height: 450px;
+  margin-left: 74px;
+  margin-top: 60px;
+}
+
+.mob_covers{
+  width: 362px;
+  height: 450px;
+  margin-left: 493px;
+  margin-top: -450px;
+}
+
+.custom{
+  width: 362px;
+  height: 450px;
+  margin-left: 912px;
+  margin-top: -450px;
+}
+
+.plain_shirt{
+  width: 362px;
+  height: 450px;
+  margin-left: 74px;
+  margin-top: 60px;
+}
+
+.couple_shirt{
+  width: 781px;
+  height: 450px;
+  margin-left: 493px;
+  margin-top: -450px;
+}
+
+.shirt{
+  height: 450px;
+  width: 571px;
+  margin-left: 74px;
+  margin-top: 80px;
+}
+
+.mobile{
+  width: 571px;
+  height: 450px;
+  margin-left: 702px;
+  margin-top: -450px;
+}
+
+.regional{
+  height: 450px;
+  width: 571px;
+  margin-left: 74px;
+  margin-top: 80px;
+}
+
+.design{
+  width: 571px;
+  height: 450px;
+  margin-left: 702px;
+  margin-top: -450px;
+}
+/***************** image links ********************/
+
+
+
+/**************** innovation ********************/
+
+.innovation{
+  background: #de2f2f;
+  height: 200px;
+  width: 1200px;
+  margin-left: 74px;
+  margin-top: 70px;
+}
+
+.head_inn{
+  width: 1200px;
+  height: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.col_inn{
+  margin-top: 20px;
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  color: #ffffff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
+/***************** innovation ********************/
+
+/******************* blogs *********************/
+.blogs_heading{
+  margin-top: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog_section_1{
+  margin-top: 80px;
+  margin-left: 74px;
+  width: 380px;
+  height: 500px;
+}
+
+.blog_section_2{
+  margin-top: -500px;
+  margin-left: 484px;
+  width: 380px;
+  height: 500px;
+}
+
+.blog_section_3{
+  margin-top: -500px;
+  margin-left: 894px;
+  width: 380px;
+  height: 500px;
+}
+
+.blog_img{
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.blog_title{
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.blog_date{
+  font-size: 13px;
+}
+
+.blog_desc{
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/******************* blogs *********************/
+
+
+
+
+
+
+/*********************fanpage**********************/
+
+
+.fanpage{
+  background: #ffe500;
+  height:240px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -40px;
+}
+
+.fanpage_1{
+  margin-top: 80px;
+  margin-left: 74px;
+  width: 380px;
+  height: 240px;
+}
+
+.fanpage_2{
+  margin-top: -240px;
+  margin-left: 484px;
+  width: 380px;
+  height: 240px;
+}
+
+.fanpage_3{
+  margin-top: -240px;
+  margin-left: 894px;
+  width: 380px;
+  height: 240px;
+}
+
+.discount_text{
+  font-family: monospace;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 21px;
+}
+
+.mail_area{
+  margin-left: 21px;
+  margin-top: 30px;
+}
+
+.mail_button{
+  margin-left: 5px;
+  border-radius: 20px;
+  height: 35px;
+  width: 70px;
+  background: #007bb5;
+  color: #ffffff;
+}
+
+.fan_text{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  margin-top:-20px;
+  font-family: monospace;
+}
+
+.fan_img{
+  margin-left: 40px;
+}
+
+.social_text{
+  font-family: monospace;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 21px;
+  margin-top: -20px;
+}
+
+.fanpage_3 .fa{
+  background: #ffe500;
+  color: black;
+  font-size: 30px;
+  margin-left: 2px;
+}
+
+.fanpage_3 .fa-facebook{
+  margin-left: 10px;
+}
+
+.fanpage_3 .fa-youtube-play{
+  margin-left: 10px;
+}
+/*********************fanpage**********************/
+
+
+
+
+/******************* footer *******8**********/
+
+.footer{
+  background: #000000;
+  width: 1355px;
+  height: 900px;
+  margin-left: -8px;
+  margin-top: 40px;
+  color: #ffffff
+}
+
+.footer_1{
+  margin-left: 74px;
+  width: 300px;
+  height: 900px;
+}
+
+.footer_2{
+  margin-top: -925px;
+  margin-left: 374px;
+  width:300px;
+  height:900px;
+}
+
+.footer_3{
+  margin-top: -925px;
+  width: 300px;
+  margin-left: 674px;
+  height: 900px;
+}
+
+.footer_4{
+  margin-top: -925px;
+  margin-left: 974px;
+  width: 300px;
+  height: 900px;
+}
+
+.footer_header{
+  padding-top: 2em;
+  padding-left: 15px;
+  font-size: 15px;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+}
+
+.footer_hr{
+  width: 16em;
+  margin-left: -25px;
+  color: #7d8185;
+}
+
+#arrow {
+  border-right:2px solid #ffffff;
+  border-bottom:2px solid #ffffff;
+  width:10px;
+  height:10px;
+  transform: rotate(-45deg);
+}
+
+.footer_list li {
+  position: relative;
+  padding-bottom: 10px;
+  padding-top:10px;
+}
+
+.footer_list {
+  list-style: none;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.footer_list li:before{
+ content: '';
+ position: absolute;
+ border-right:2px solid #ffffff;
+ border-bottom:2px solid #ffffff;
+ width:8px;
+ height:8px;
+ top: calc(50% - 4px);
+ left: -20px;
+ transform: translateY(-50%) rotate(-45deg);
+ margin-left: -8px;
+ margin-top: 4px;
+}
+
+.footer_text_mail{
+  margin-left:17px;
+  margin-top: 10px;
+}
+
+.footer_mail{
+  margin-left:17px;
+  margin-top: 10px;
+}
+
+.footer_button{
+  margin-left:17px;
+  margin-top: 20px;
+}
+
+.icons{
+  margin-left: -60px;
+}
+
+.icons .fa{
+  background: #000000;
+  padding-left: 1px;
+}
+
+.copyright_content{
+  width: 1355px;;
+  margin-left: -8px;
+  height: 275px;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  background: #1c1f24;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.inside_copyright{
+  width: 1200px;
+  height: 275px;
+  margin-left: 74px;
+}
+
+.inside_copyright p{
+  padding-top: 10px;
+}
+
+.copyright_content .fa{
+  background: #1c1f24;
+  color: #ffffff;
+  margin-left: -5px;
+  font-size: 20px;
+}
+/******************* footer *****************/
+
+
+
+
+/****************** register form********************/
+
+
+.register_container{
+  width: 1000px;
+  height: 600px;
+  background: #ddd;
+  margin-left: 174px;
+  margin-top: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.reg_text{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.reg_user ,.reg_pass{
+  margin-left: 250px;
+  margin-top: 40px;
+  width: 500px;
+  height: 40px;
+}
+
+.reg_btn{
+  margin-left: 440px;
+  margin-top: 50px;
+  height: 40px;
+  width: 125px;
+  background: #007bb5;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.reg_fail{
+  font-size: 30px;
+  padding-top: 100px;
+  text-align: center;
+  color: #bb0000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/****************** register form ********************/
+
+
+/****************graphic_tshirt ******************/
+
+.product_container{
+  width: 1208px; 
+  margin-left: 65px;
+  margin-top: 50px;
+  min-height: 550px;
+  overflow: hidden;
+}
+
+.product{
+  float: left;
+  width: 291px; 
+  margin-left: 9px;
+  margin-top: 30px;
+  height: 545px;
+  border: 1px solid #000000;
+}
+
+.product_img{
+  width: 100%;
+  height: 380px;
+}
+
+.product_tag{
+  font-size: 16px;
+}
+
+.product_description{
+  width: 259px;
+  margin-top: 30px;
+  margin-left: 16px;
+}
+
+.product_price{
+  width: 259px;
+  margin-top: 20px;
+}
+
+.product_hr{
+  margin-top: 20px;
+}
+
+.product_buttons{
+  width: 249px;
+  height: auto;
+  margin-left: -20px;
+}
+
+.icart{
+  float: left; 
+}
+
+.details{
+  float: right;
+  font-size: 16px;
+}
+
+.pagination{
+  width: 1200px;
+  height: 20px;
+  margin-top: 60px;
+  margin-left: 74px;
+}
+
+.pagination a{
+  padding-left: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.page_number{
+  width: 33px;
+  height: 30px;
+  background: #000000;  
+  margin-left: 10px;
+  float:left;
+}
+.page_number:hover{
+  background: #474343;  
+}
+
+/****************graphic_tshirt ******************/
+
+
+
+/****************details page****************/
+
+.details_container{
+  width: 1200;
+  margin-left: 74px;
+  height: 700px;
+  margin-top: 80px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+.detail_image{
+  width: 500px;
+  height:657px;
+}
+
+.detail_tag{
+  margin-left: 550px;
+  margin-top: -600px;
+}
+
+.detail_tag  button{
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  background: #125688;
+  margin-top: 30px;
+}
+
+.description_container{
+  margin-left: 174px;
+  width: 1000px;
+  height: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.description_container span{
+  font-size: 20px; 
+}
+
+
+/****************details page****************/
